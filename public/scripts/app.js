@@ -19,6 +19,16 @@ var template = React.createElement(
 		'p',
 		null,
 		app.subtitle
+	),
+	React.createElement(
+		'form',
+		null,
+		React.createElement('textarea', { type: 'text', name: 'optionOne' }),
+		React.createElement(
+			'button',
+			null,
+			'Add JSON'
+		)
 	)
 );
 
